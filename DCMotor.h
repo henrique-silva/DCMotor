@@ -9,10 +9,9 @@ class DCMotor {
 		void setOutput(uint8_t _speed);
 		
 		uint8_t enaPin, enbPin, speedPin, speed;
-	
-	private:
-		void goForward();
+			void goForward();
 		void goBackward();
+
 };
 
 #endif
